@@ -1,0 +1,202 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Blog</title>
+    <link rel="stylesheet" href="/dist/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" rel="stylesheet">
+    <style>
+       @media screen and (min-width:769px){
+         .pagenum{
+            display: none;
+         }
+       }
+        @media screen and (max-width:768px){
+         .blog{
+            margin: 15px 0;
+         }
+         .images{
+            width: 100%;
+            }
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="w-10/12 mx-auto mt-10   lg:p-10  ">
+        <!-- header -->
+        <div class="text-center md:mx-20  sm:mx-5">
+    <h1 class="text-purple-600 font-medium text-center pb-5 ">Our Blog</h1>
+    <h2 class="text-5xl text-center font-semibold pb-5">Stories and Interviews</h2>
+    <div class=""><h3 class="text-base text-gray-600 text-center">Subscribe to learn about new product features, the latest in technology, solutions, and updates.</h3></div>
+    </div>
+    <div class=" justify-center flex pt-5">
+    <div class="block">
+        <div class=" flex items-center gap-3 ">
+            <input type="email" class="p-3 focus:outline-none bg-transparent rounded-xl h-10 text-sm  lg:w-80 sm:max-w-full" placeholder="Enter your Email" style="border: 1px solid #b6b1b1;" >
+            <input type="button" value="Subscribe" class="p-2  bg-purple-500 rounded-xl h-10 text-white" >
+        </div>
+        <span class="text-gray-600 text-sm">We care about your data in our <span><a class="underline">privacy policy</a></span></span>
+    </div>
+    </div>
+    <!-- Recent blog post -->
+ <h3 class="text-lg font-semibold pt-10 pb-4">Recent Blog posts</h3>
+ <div class=" justify-between    lg:gap-7 lg:flex lg:h-97 ">
+    <div class="block relative md:mb-5  lg:w-1/2">
+        <img src="/images/img1.png" class="w-full lg:h-1/2 ">
+        <div class="">
+        <div class="block">
+            <span class="block text-purple-600 font-medium pt-6 ">Olivia Rhye. 20 jan 2022</span>
+            <div class=" flex justify-between items-center mt-4">
+            <span class=" block text-3xl font-medium ">UX Preview Presentation</span>
+             <span class="material-symbols-outlined">north_east</span>
+            </div>
+            <span class="text-gray-600 text-base w-full">How do you create compelling presentations that wow your colleagues and impress your managers?</span>
+        </div>
+        <div class="flex gap-2 pt-3 lg:absolute lg:bottom-0">
+            <button class="text-purple-500 text-base py-1 px-2 bg-gray-100 rounded-xl" >Design</button>
+            <button  class="text-purple-700 text-base py-1 px-2 bg-gray-100 rounded-xl"> Research</button>
+            <button class="text-red-500 text-base py-1 px-2 bg-gray-100 rounded-xl">Presentation</button>
+        </div>
+        </div>
+    </div>
+    <!-- the second recent blog post -->
+    <div class="blog lg:h-full  lg:w-1/2 ">
+    <div class="  lg:grid lg:grid-cols-1 lg:grid-rows-2 lg:gap-y-4">
+        <div class="   lg:flex lg:gap-4 lg:w-full lg:h-48" >
+           <img src="/images/img2.png" class="images lg:w-2/5 lg:object-cover" >
+            <div class="lg:w-3/5">
+            <span class=" text-purple-600 font-medium text-sm ">Phoenix Baker. 29 jan 2022</span>
+            <h4 class="font-semibold text-xl py-1">Migrating To Linear 101</h4>
+            <span class="text-gray-600 lg:text-sm">Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...</span>
+            <div class="pt-3">
+                <button class="text-purple-500 text-base py-1 px-2 bg-gray-100 rounded-xl" >Design</button>
+                <button  class="text-purple-700 text-base py-1 px-2 bg-gray-100 rounded-xl"> Research</button>
+            </div>
+            </div>
+        </div>
+        <div class="   lg:flex lg:gap-4 lg:h-48 lg:w-full mt-3 lg:mt-0" >
+             <img src="/images/img3.png" class="images lg:w-2/5 lg:object-cover" >
+             <div class="lg:w-3/5 ">
+             <span class=" text-purple-600 font-medium ">Lana Steiner • 18 Jan 2022</span>
+             <h4 class="font-semibold text-xl py-1">Building Your Api Stack</h4>
+             <span class="text-gray-600 lg:text-sm">The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...</span>
+             <div class="pt-3">
+                 <button class="text-purple-500 text-base py-1 px-2 bg-gray-100 rounded-xl" >Design</button>
+                 <button  class="text-purple-700 text-base py-1 px-2 bg-gray-100 rounded-xl"> Research</button>
+             </div>
+             </div>
+         </div>
+    </div>
+         </div>
+ </div>
+         <h3 class="text-lg font-semibold pt-10 ">Recent Blog posts</h3>
+         <div class="  grid lg:grid-cols-3 gap-y-4 md:gap-x-4  md:grid-cols-2 sm:max-w-full ">
+            <div class="w-full h-81  relative">
+                <img src="/images/img4.png" class="w-full h-1/2">
+            <div class="py-3"><span class="text-sm text-purple-600 font-medium">Alec Whitten • 17 Jan 2022</span></div>
+            <div class=" flex justify-between items-center">
+            <div><h4 class="font-semibold text-lg pb-1">Bill Walsh leadership lessons</h4></div>
+            <span class="material-symbols-outlined">north_east</span>
+            </div>
+            <span class="text-gray-600 text-sm">Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?</span>
+            <div class="pt-3 absolute bottom-0">
+                <button class="text-purple-700 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium " >Leadership</button>
+                <button  class="text-slate-800 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium ">Management</button>
+            </div>
+            </div>
+            <div class="w-full h-81  relative">
+                <img src="/images/img5.png" class="w-full h-1/2">
+                <div class="py-3"><span class="text-sm text-purple-600 font-medium">Demi WIlkinson • 16 Jan 2022</span></div>
+                <div class=" flex justify-between items-center">
+                <div><h4 class="font-semibold text-lg pb-1">PM mental models</h4></div>
+                <span class="material-symbols-outlined">north_east</span>
+                </div>
+                <span class="text-gray-600 text-sm">Mental models are simple expressions of complex processes or relationships.</span>
+                <div class="pt-3 absolute bottom-0">
+                    <button class="text-green-600 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium " >Products</button>
+                    <button  class="text-blue-700 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium ">Research</button>
+                    <button  class="text-red-600 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium ">Frameworks</button>
+                </div>
+            </div>
+            <div class="w-full h-81  relative ">
+                <img src="/images/img6.png" class="w-full h-1/2">
+                <div class="py-3"><span class="text-sm text-purple-600 font-medium">Candice Wu • 15 Jan 2022</span></div>
+                <div class=" flex justify-between items-center">
+                <div><h4 class="font-semibold text-lg pb-1">What is Wireframing?</h4></div>
+                <span class="material-symbols-outlined">north_east</span>
+                </div>
+                <span class="text-gray-600 text-sm">Introduction to Wireframing and its Principles. Learn from the best in the industry.</span>
+                <div class="pt-3 absolute bottom-0">
+                    <button class="text-purple-700 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium " >Design</button>
+                    <button  class="text-blue-700 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium ">Research</button>
+                </div>
+            </div>
+            <div class="w-full h-81  relative ">
+                <img src="/images/img7.png" class="w-full h-1/2">
+                <div class="py-3"><span class="text-sm text-purple-600 font-medium">Natali Craig • 14 Jan 2022</span></div>
+                <div class=" flex justify-between items-center">
+                <div><h4 class="font-semibold text-lg pb-1">How collaboration makes us better designers</h4></div>
+                <span class="material-symbols-outlined">north_east</span>
+                </div>
+                <span class="text-gray-600 text-sm">Collaboration can make our teams stronger, and our individual designs better.</span>
+                <div class="pt-3 absolute bottom-0">
+                    <button class="text-purple-700 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium " >Design</button>
+                    <button  class="text-blue-700 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium ">Research</button>
+                </div>
+            </div>
+            <div class="w-full h-81  relative">
+                <img src="/images/img8.png" class="w-full h-1/2">
+                <div class="py-3"><span class="text-sm text-purple-600 font-medium">Drew Cano • 13 Jan 2022</span></div>
+                <div class=" flex justify-between items-center">
+                <div><h4 class="font-semibold text-lg pb-1">Our top 10 Javascript frameworks to use</h4></div>
+                <span class="material-symbols-outlined">north_east</span>
+                </div>
+                <span class="text-gray-600 text-sm">JavaScript frameworks make development easy with extensive features and functionalities.</span>
+                <div class="pt-3 max-w-full absolute bottom-0">
+                    <button class="text-green-500 text-sm py-1 px-2 bg-gray-100 rounded-xl font-medium " >Software Development</button>
+                    <button  class="text-purple-700 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium  ">Tools</button>
+                    <button  class="text-red-600 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium  ">Saas</button>
+                </div></div>
+            <div class="w-full h-81  relative">
+                <img src="/images/img9.png" class="w-full h-1/2">
+                <div class="py-3"><span class="text-sm text-purple-600 font-medium">Orlando Diggs • 12 Jan 2022</span></div>
+                <div class=" flex justify-between items-center">
+                <div><h4 class="font-semibold text-lg pb-1">Podcast: Creating a better CX Community</h4></div>
+                <span class="material-symbols-outlined">north_east</span>
+                </div>
+                <span class="text-gray-600 text-sm">Starting a community doesn’t need to be complicated, but how do you get started?</span>
+                <div class="pt-3 absolute bottom-0">
+                    <button class="text-purple-700 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium " >Podcasts</button>
+                    <button  class="text-slate-800 text-base py-1 px-2 bg-gray-100 rounded-xl font-medium ">Customer Success</button>
+                </div>
+            </div>
+         </div>
+
+    <div class="flex justify-between  items-center mt-6">
+        <div  class=" flex justify-between items-center gap-2"><span class="material-symbols-outlined text-gray-600 ">west</span><span class="text-gray-600 ">Previous</span></div>
+  <div class="hidden lg:flex lg:gap-2">
+    <button class="p-4 text-gray-600  focus:bg-slate-300">1</button>
+    <button class="p-4 text-gray-600  hover:bg-slate-300">2</button>
+    <button class="p-4 text-gray-600  hover:bg-slate-300">3</button>
+    <button class="p-4 text-gray-600  hover:bg-slate-300">. . .</button>
+    <button class="p-4 text-gray-600  hover:bg-slate-300">8</button>
+    <button class="p-4 text-gray-600  hover:bg-slate-300">9</button>
+    <button class="p-4 text-gray-600  hover:bg-slate-300">10</button>
+  </div>
+  <div class="pagenum text-gray-600 ">Page 1 of 10</div>
+  <div  class=" flex justify-between items-center gap-2"><span class="text-gray-600 ">Next</span><span class="material-symbols-outlined text-gray-600 ">east</span></div>
+    </div>
+
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
